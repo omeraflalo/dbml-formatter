@@ -57,7 +57,6 @@ Format Document
 ---
 
 ## Configuration
-- **Indentation:** Currently hard-coded to **two spaces** in the extension code. Adjust the `INDENT_STR` variable in `extension.js` if you need a custom indentation style.
 - **Error Handling:** If the parser encounters invalid DBML, the formatter will notify you in VS Code with an error message.
 
 ---

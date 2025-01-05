@@ -1,0 +1,10 @@
+{
+  "scopeName": "source.dbml",
+  "patterns": [
+    {
+      "match": ".*",
+      "name": "text.dbml"
+    }
+  ],
+  "repository": {}
+}
