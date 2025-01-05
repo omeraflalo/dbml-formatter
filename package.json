@@ -44,10 +44,10 @@
     "compile": "vsce package"
   },
   "devDependencies": {
-    "@types/vscode": "^1.80.0"
+    "@types/vscode": "^1.80.0",
+    "vsce": "^2.15.0"
   },
   "dependencies": {
-    "@dbml/core": "^3.9.5",
-    "vsce": "^2.15.0"
+    "@dbml/core": "^3.9.5"
   }
 }
