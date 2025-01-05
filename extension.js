@@ -37,10 +37,7 @@ function activate(context) {
             }
 
             let indentLevel = 0;
-            const editorConfig = vscode.workspace.getConfiguration('editor');
-            const insertSpaces = editorConfig.get('insertSpaces', true);
-            const tabSize = editorConfig.get('tabSize', 2);
-            const INDENT_STR = insertSpaces ? ' '.repeat(tabSize) : '\t';
+            const INDENT_STR = '  ';
             const lines = fullText.split('\n');
             const newLines = lines.map((line) => {
                 const { newLine, newIndentLevel } = formatLine(line, indentLevel, INDENT_STR);

@@ -1,5 +1,1 @@
-# Exclude all dev dependencies
-node_modules/**
-!node_modules/required-module/
-.vscode/
 .git/
