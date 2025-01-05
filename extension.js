@@ -32,7 +32,7 @@ function activate(context) {
                 const parser = new Parser();
                 parser.parse(fullText, 'dbmlv2');
             } catch (error) {
-                vscode.window.showErrorMessage(`Failed to parse DBML: ${error.message}`);
+                vscode.window.showErrorMessage(`Failed to parse DBML${error.message ? ": " + error.message : ''}`);
                 return [];
             }
 
