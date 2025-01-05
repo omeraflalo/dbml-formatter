@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/omeraflalo/dbml-formatter"
   },
-  "publisher": "Omer Aflalo",
+  "publisher": "omer-aflalo",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -33,11 +33,12 @@
     ]
   },
   "scripts": {
+    "publish": "vsce publish",
     "compile": "vsce package"
   },
   "devDependencies": {
     "@types/vscode": "^1.80.0",
-    "vsce": "^2.15.0"
+    "@vscode/vsce": "^3.2.1"
   },
   "dependencies": {
     "@dbml/core": "^3.9.5"
